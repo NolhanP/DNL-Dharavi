@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;600;800&display=swap');
+
+* {
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-decoration: none;
+    font-size: 30px;
+    
+    margin: 0;
+}
+
+/* Remove the blue color of a link and of a visited link*/
+a:link, a:visited {
+    color: white;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    padding: 15px;
+    vertical-align: middle;
+    background-color: #618F81;
+    color: white;
+    top: 0;
+    width: 100;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    align-items: center;
+}
+
+h1 {
+    margin-left: 20px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+header nav {
+    text-align: end;
+    margin-right: 20px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+header nav a {
+    text-align: end;
+    margin-left: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+header nav a:hover {
+    color: #F2F2F2;
+}
+
+footer {
+    font-size: 20px;
+    padding: 5px;
+    vertical-align: middle;
+    background-color: #222222;
+    color: white;
+    bottom: 0;
+    width: 100;
+}
+
+footer p {
+    margin: 20px;
+    font-weight: 400;
+    font-size: 15px;
+    white-space: break-spaces;
+}
+
+
+
+.rect {
+    display: flex;
+    background-color: linear-gradient(103.17deg, #C1D9C4 22.78%, #A9CAAC 99.76%);
+    padding: 50px;
+    margin: 100px 25%;
+    border-radius: 60px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.rect p.content {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 20px;
+    white-space: pre-line;
+}
+
+/* .rect img {
+    width: 1000%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 60px;
+}
+ */
