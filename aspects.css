@@ -1,0 +1,17 @@
+.img {
+    height: 40vh;
+    border-radius: 30px;
+
+}
+
+
+.rect {
+    padding: 50px;
+    margin: 100px 30%;
+    margin-bottom: 400px;
+    border-radius: 60px;
+}
+
+.rect .left {
+    margin-right: 20px;
+}
